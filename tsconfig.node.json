@@ -1,0 +1,11 @@
+{
+  "extends": "@tsconfig/recommended/tsconfig.json",
+  "include": ["vite.config.*", "vitest.config.*", "cypress.config.*", "playwright.config.*"],
+  "compilerOptions": {
+    "composite": true,
+    "module": "NodeNext",
+    "types": ["node"],
+    "target": "ESNext",
+    "moduleResolution": "NodeNext"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "extends": "@vue/tsconfig/tsconfig.dom.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"],
+      "@features": ["./src/components/features"],
+      "@uikit": ["./src/components/uikit"],
+      "@icons": ["./src/assets/icons"],
+      "@models": ["./src/models"]
+    },
+    "lib": ["ESNext", "DOM"]
+  }
+}
